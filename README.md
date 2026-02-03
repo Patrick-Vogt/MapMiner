@@ -1,8 +1,6 @@
 # 🗺️ MapMiner
 
-A stunning, Apple-inspired web application for mining business data from Google Maps with intelligent website enrichment to extract contact information.
-
-![MapMiner Dashboard](screenshots/dashboard.png)
+Automate lead generation by extracting business data from Google Maps and enriching it with contact information from company websites. Perfect for sales teams, marketers, and researchers who need to build targeted contact lists at scale.
 
 ## ✨ Features
 
@@ -29,18 +27,7 @@ A stunning, Apple-inspired web application for mining business data from Google 
 - English and German translations
 - Easy to extend with additional languages
 
-## 📸 Screenshots
-
-### Main Dashboard
-![Main Dashboard](screenshots/dashboard.png)
-
-### Configuration Panel
-![Configuration](screenshots/configuration.png)
-
-### Real-Time Progress
-![Progress](screenshots/progress.png)
-
-## 🚀 Quick Start
+##  Quick Start
 
 ### Prerequisites
 - **Python 3.8+**
@@ -151,29 +138,6 @@ Example: `Autohaus_20260203_104530.csv`
 - `email` - Email address(es) found
 - `owner` - Owner/manager name found
 
-## 🎨 Taking Screenshots for GitHub
-
-To add screenshots to your README:
-
-1. **Take screenshots**
-   - Mac: Press `Cmd + Shift + 4`, then drag to select area
-   - Windows: Press `Win + Shift + S`
-
-2. **Create screenshots folder**
-```bash
-mkdir screenshots
-```
-
-3. **Save screenshots**
-   - `screenshots/dashboard.png` - Main dashboard view
-   - `screenshots/configuration.png` - Configuration panel
-   - `screenshots/progress.png` - Progress tracking
-
-4. **Reference in README**
-```markdown
-![Description](screenshots/filename.png)
-```
-
 ## 🏗️ Project Structure
 
 ```
@@ -191,7 +155,6 @@ MapMiner/
 │   └── package.json       # Node dependencies
 ├── maps_scraper_configurable.py   # Stage 1: MapMiner
 ├── website_scraper_configurable.py # Stage 2: Enrichment
-├── screenshots/           # UI screenshots
 └── README.md             # This file
 ```
 
