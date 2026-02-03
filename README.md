@@ -27,7 +27,18 @@ Automate lead generation by extracting business data from Google Maps and enrich
 - English and German translations
 - Easy to extend with additional languages
 
-##  Quick Start
+## 📸 Screenshots
+
+### Main Dashboard
+![Main Dashboard](screenshots/dashboard.png)
+
+### Configuration Panel
+![Configuration](screenshots/configuration.png)
+
+### Real-Time Progress
+![Progress](screenshots/progress.png)
+
+## 🚀 Quick Start
 
 ### Prerequisites
 - **Python 3.8+**
@@ -230,28 +241,9 @@ cd frontend
 npm update
 ```
 
-## 🎯 Roadmap
-
-- [ ] Export to multiple formats (JSON, Excel)
-- [ ] Scheduled scraping
-- [ ] API endpoint for programmatic access
-- [ ] More language support
-- [ ] Advanced filtering options
-- [ ] Duplicate detection
-
-## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
-
 ## 📄 License
 
 This project is for educational purposes. Please ensure you comply with all applicable laws and terms of service when using this tool.
-
-## 🙏 Acknowledgments
-
-- Built with React, Flask, Selenium, and BeautifulSoup
-- UI inspired by Apple's design principles
-- Icons from Lucide React
 
 ---
 
